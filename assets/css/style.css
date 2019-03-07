@@ -1,18 +1,20 @@
 body {
     margin:0 auto;
     background-color:#4aaaa5;
-    font-weight: 300px;
-    position: absolute;
-    margin-left: 15%;
     background-image: url(../images/mosaic.png);
 }
 
 header {
     background-color: #ffffff;
     height: 59px;
-    width: 960px;
     margin-bottom: 2%;
     margin-top: 2%;
+    width: 100%;
+}
+
+.mainContainer {
+    width: 960px;
+    margin: 0 auto;
 }
 
 header::after {
@@ -22,14 +24,14 @@ header::after {
 }
 
 .container {
-    margin: 0 auto;
     background-color:#ffffff;
+    width: 100%;
 }
 
 h1 {
     float:left;
     background-color:#4aaaa5;
-    padding-bottom: 6px;
+    padding-bottom: 7px;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -70,15 +72,14 @@ section {
     float:left;
     background-color:#ffffff;
     margin: 15px;
-    padding:2px;
+    padding: 2px;
     
 }
 p {  
-    text-align:left;
+    text-align:justify;
     background-color:#ffffff;
     padding-top: 10px;
     margin-top: 0px;
-    width: 960px;
     font-size: 19px;
     border-color: #dddddd;
     padding-bottom: 20px;
@@ -87,9 +88,9 @@ p {
 }
 
 footer {
+    width: 100%;
     background-color: #666666;
     position: absolute;
-    width: 960px;
     height: 30px;
     padding-bottom: -30px;
     text-align: center;
@@ -103,6 +104,9 @@ footer {
 .image {
     float:left;
     margin:-10px;
+    width: 150px;
+    height: 150px;
+    margin-right: 5px; 
 }
 
 .para1 {
@@ -117,5 +121,9 @@ footer {
     margin:0;
     padding:0;
     list-style: none;
+}
+#row #column #content {
+    width: 960px;
+    margin: 0 auto;
 
 }
