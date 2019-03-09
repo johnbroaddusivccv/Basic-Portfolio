@@ -132,14 +132,16 @@ button {
 
 .thirdContainer {
     background-color: #ffffff;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 img {
-    width: 150px;
-    padding: 25px 25px 25px 25px;
-    height: 150px;
+    padding: 25px 25px 25px 185px;
+    height:175px;
+    width: 175px;
+    display: inline-block;
+    
 
 }
 
@@ -148,3 +150,10 @@ img {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
 }
+
+.fourthContainer {
+    padding-bottom: 10px;
+}
+
+
+
