@@ -5,7 +5,8 @@ body {
 
 header {
     width: 100%;
-    background-color:#ffffff; 
+    background-color:#ffffff;
+    margin-top: -50px;
 }
 
 header::after {
@@ -20,7 +21,7 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     float:left;
     margin: 65px 0 0 65px;
-    padding: 3px 8px 3px 8px;
+    padding: 3px 8px 12px 8px;
    
 
 }
@@ -42,7 +43,8 @@ nav ul {
 }
 nav li {
     display:inline-block;
-    padding: 0 15px 0 15px;
+    padding: 0px 25px 0 25px;
+    margin:7px;
 }
 
 nav a {
@@ -85,6 +87,7 @@ footer {
     font-family: Georgia, 'Times New Roman', Times, serif; 
     color:#ffffff;
     height: 35px;
+    margin-top: 50px;
 }
 
 textarea {
@@ -134,7 +137,14 @@ button {
 }
 
 img {
-    width: 20px;
+    width: 150px;
     padding: 25px 25px 25px 25px;
+    height: 150px;
 
+}
+
+#portfolio {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
 }
