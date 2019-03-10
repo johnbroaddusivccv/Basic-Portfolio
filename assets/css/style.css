@@ -63,6 +63,7 @@ nav a {
 }
 h2 {
     padding: 25px 0 0 25px;
+    color: #4aaaa5;
 }
 
 hr {
@@ -91,7 +92,7 @@ footer {
     font-family: Georgia, 'Times New Roman', Times, serif; 
     color:#ffffff;
     height: 35px;
-    margin-top: 0px;
+    margin-top: 44px;
 }
 
 textarea {
@@ -115,6 +116,7 @@ label {
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
+    color: #4aaaa5
 
 }
 
@@ -138,15 +140,16 @@ button {
 
 .thirdContainer {
     background-color: #ffffff;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 20%;
+    margin-right: 20%;
     padding-bottom: 60px;
+    
     
 
     }
 
 img {
-    padding: 25px 25px 25px 185px;
+    padding: 25px 65px 25px 25px;
     height:175px;
     width: 175px;
     display: inline-block;
@@ -155,9 +158,10 @@ img {
 }
 
 #portfolio {
-    text-align: center;
+    text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
+    color: #4aaaa5;
 }
 
 .fourthContainer {
@@ -167,16 +171,24 @@ img {
 
 h3 {
     position: absolute;
-    padding: 0px 10px 5px 10px;
+    padding: 0px 10px 5px 5px;
     background-color: #4aaaa5;
-    margin-left: 200px;
+    margin-left: 25px;
     margin-top: 173.5px;
 
 }
 
 .movedown {
-    margin-top: 30px;
+    margin-top: 63px;
 }
 
+button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.footDown {
+    margin-top: 45px;
+}
 
 
